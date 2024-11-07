@@ -1,15 +1,21 @@
-import Card from "./Components/Card";
+import { useState } from 'react'
+import './styles/App.css'
+import Catalog from "./Components/Catalog";
+
+
 
 
 function App() {
+  const [count, setCount] = useState(0)
+
+
   return (
-    <div className="App">
-      <h1>Carga de estudiante</h1>
-      <form></form>
-      <Card />
-    </div>
-  );
+    <>
+      <Catalog/>
+
+    </>
+
+  )
 }
 
-export default App;
-
+export default App

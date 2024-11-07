@@ -1,0 +1,42 @@
+.quoteContainer {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.quoteInfo {
+    display: flex;
+    gap: 2rem;
+    margin: 1.5rem 0;
+    align-items: center;
+}
+
+.quoteInfo img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.details {
+    flex: 1;
+}
+
+.details p {
+    margin: 0.5rem 0;
+}
+
+.quoteContainer button {
+    padding: 0.5rem 1.5rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quoteContainer button:hover {
+    background-color: #0056b3;
+} 
